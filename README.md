@@ -1,6 +1,6 @@
 # Choo Choo Train
 
-## Instructions 
+## Instructions
 * Fork this repository
 * Clone your forked repo to your computer
 * Complete the activity below
@@ -114,13 +114,13 @@ pry(main)> car4 = Car.new({type: 'Dining', weight: 4})
 # => #<Car:0x007f9c56343038...>
 
 pry(main)> train1 = Train.new({name: 'Thomas', type: 'Tank'})
-# => #<Train:0x007fd8858863b8...>
+# => #<train1.>
 
 pry(main)> train2 = Train.new({name: 'Emily', type: 'Tender'})
-#=> #<Train:0x00007fe1349bed40...>
+#=> #<train2>
 
 pry(main)> train3 = Train.new({name: 'Nia', type: 'Tank'})
-#=> #<Train:0x00007fe134910650...>
+#=> #<train3>
 
 pry(main)> train4 = Train.new({name: 'Gordon', type: 'Express'})
 #=> #<FoodTruck:0x00007fe1348a1160...>
@@ -142,8 +142,8 @@ pry(main)> train_yard.add_train(train3)
 pry(main)> train_yard.add_train(train4)
 
 pry(main)> train_yard.trains
-# => [#<Train:0x007fd8858863b8...>,#<Train:0x00007fe1349bed40...>,
-#<Train:0x00007fe134910650...>, #<FoodTruck:0x00007fe1348a1160...>]
+# => [#<train1.>,#<train2>,
+#<train3>, #<FoodTruck:0x00007fe1348a1160...>]
 
 pry(main)> train1.weight
 # => 27
@@ -152,8 +152,8 @@ pry(main)> train_yard.types_of_trains
 # => ['Express', 'Tank', 'Tender']
 
 pry(main) train_yard.trains_containing(car1)
-# => [#<Train:0x007fd8858863b8...>,#<Train:0x00007fe1349bed40...>,
-#<Train:0x00007fe134910650...>]
+# => [#<train1.>,#<train2>,
+#<train3>]
 
 # In this example, it's Thomas, Emily and Nia
 ```
@@ -197,7 +197,7 @@ pry(main)> car4 = Car.new({type: 'Dining', weight: 4})
 # => #<Car:0x007f9c56343038...>
 
 pry(main)> train1 = Train.new({name: 'Thomas', type: 'Tank'})
-# => #<Train:0x007fd8858863b8...>
+# => #<train1.>
 
 pry(main)> train2 = Train.new({name: 'Emily', type: 'Tender'})
 #=> #<Train:0x00007fe1349bed40...>
