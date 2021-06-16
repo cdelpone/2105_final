@@ -1,6 +1,6 @@
 # Choo Choo Train
 
-## Instructions
+## Instructions 
 * Fork this repository
 * Clone your forked repo to your computer
 * Complete the activity below
